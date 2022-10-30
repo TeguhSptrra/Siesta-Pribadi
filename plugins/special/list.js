@@ -45,10 +45,10 @@ exports.run = {
             teks += data.map(([jid, _]) => '	◦ @' + jid.replace(/@.+/, '')).join('\n') + '\n\n'
             teks += global.footer
             client.sendMessageModify(m.chat, teks, m, {
-               title: 'Siesta - Multi Device',
+               title: 'Teguh Bot Premium',
                ads: false,
                largeThumb: true,
-               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/3d20c23aafd4257325003.jpg')
+               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/bc0868059809a2d2f39dc.jpg')
             })
          } else if (args[0] == 2) {
             const data = global.db.setting.error
@@ -57,10 +57,10 @@ exports.run = {
             teks += data.map(cmd => '	◦ ' + isPrefix + cmd).join('\n') + '\n\n'
             teks += global.footer
             client.sendMessageModify(m.chat, teks, m, {
-               title: 'Siesta - Multi Device',
+               title: 'Teguh Bot Premium',
                ads: false,
                largeThumb: true,
-               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/3d20c23aafd4257325003.jpg')
+               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/bc0868059809a2d2f39dc.jpg')
             })
          } else if (args[0] == 3) {
             const data = global.db.setting.mimic
