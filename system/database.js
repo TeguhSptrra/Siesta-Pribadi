@@ -108,7 +108,7 @@ module.exports = (m) => {
          error: [],
          pluginDisable: [],
          groupmode: false,
-         sk_pack: 'Siesta - Multi Device',
+         sk_pack: 'Tgh Bot',
          sk_author: '@Swift Developer',
          self: false,
          mimic: [],
