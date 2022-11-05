@@ -173,7 +173,7 @@ exports.run = {
       	       title: 'Teguh Bot Premium',
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/bc0868059809a2d2f39dc.jpg'),
-               url: 'https://chat.whatsapp.com/Fd3dI2zGjOI61Rcn2NLo7A'
+               url: 'https://chat.whatsapp.com/EjpG9d8mwvmBTBw02TvMSt'
             })
       } catch (e) {
          client.reply(m.chat, Func.jsonFormat(e), m)
