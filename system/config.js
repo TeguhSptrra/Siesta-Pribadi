@@ -1,7 +1,7 @@
 // Owner number
 global.owner = '6288703379708'
 // Owner name
-global.owner_name = 'Teguh Developer'
+global.owner_name = 'Teguh Suputra'
 // Maximum upload file size limit (Default : 50 MB)
 global.max_upload = 50
 // Delay for spamming protection (Default : 3 seconds)
@@ -24,7 +24,7 @@ global.chatai_key = 'MKPsfkgXLZPGrWoH'
 // Source version
 global.version = '2.2.1',
 // Footer text
-global.footer = 'Teguh Bot Wa'
+global.footer = 'Tgh Bot'
 // Global status
 global.status = Object.freeze({
    wait: Func.texted('bold', 'Processed . . .'),
