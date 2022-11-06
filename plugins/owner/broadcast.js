@@ -19,10 +19,10 @@ exports.run = {
             for (let jid of id) {
                await Func.delay(1500)
                await client.sendMessageModify(jid, text, null, {
-                  title: 'Broadcast Teguh Bot',
+                  title: 'Tgh Bot Broadcast',
                   thumbnail: await Func.fetchBuffer('https://telegra.ph/file/bc0868059809a2d2f39dc.jpg'),
                   largeThumb: true,
-                  url: 'https://chat.whatsapp.com/Fd3dI2zGjOI61Rcn2NLo7A',
+                  url: 'https://chat.whatsapp.com/EjpG9d8mwvmBTBw02TvMSt',
                   mentionedJid: command == 'bcgc' ? await (await client.groupMetadata(jid)).participants.map(v => v.id) : []
                })
             }
