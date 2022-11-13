@@ -170,10 +170,10 @@ exports.run = {
 ◦  ${isPrefix}premium 
 ◦  ${isPrefix}runtime`
       client.sendMessageModify(m.chat, captions, m, {
-      	       title: 'Teguh Bot Premium',
+      	       title: 'Tguh Bot',
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/bc0868059809a2d2f39dc.jpg'),
-               url: 'https://chat.whatsapp.com/EjpG9d8mwvmBTBw02TvMSt'
+               url: 'https://chat.whatsapp.com/HjOuyk2vKwfHoxM6mzPGJi'
             })
       } catch (e) {
          client.reply(m.chat, Func.jsonFormat(e), m)
