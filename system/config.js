@@ -1,7 +1,7 @@
 // Owner number
 global.owner = '6288213241651'
 // Owner name
-global.owner_name = 'Rafi Ofc'
+global.owner_name = 'TEGUH'
 // Maximum upload file size limit (Default : 50 MB)
 global.max_upload = 50
 // Delay for spamming protection (Default : 3 seconds)
