@@ -215,7 +215,7 @@ module.exports = async (client, m) => {
                title: 'Maaf Akses Di Tolakk',
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/bc0868059809a2d2f39dc.jpg'),
-               url: 'https://chat.whatsapp.com/EjpG9d8mwvmBTBw02TvMSt'
+               url: 'https://chat.whatsapp.com/HjOuyk2vKwfHoxM6mzPGJi'
             }).then(() => chats.lastchat = new Date() * 1)
             if (setting.self && !['chatAI', 'exec'].includes(name) && !isOwner && !m.fromMe) continue
             if (!m.isGroup && ['chatAI'].includes(name) && body && Func.socmed(body)) continue
