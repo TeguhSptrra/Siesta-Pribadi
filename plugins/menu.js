@@ -173,7 +173,7 @@ exports.run = {
       	       title: 'Tguh Bot',
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/bc0868059809a2d2f39dc.jpg'),
-               url: 'https://chat.whatsapp.com/EjpG9d8mwvmBTBw02TvMSt'
+               url: 'https://chat.whatsapp.com/LrsAjr8Uq3g6trBGwVRUSb'
             })
       } catch (e) {
          client.reply(m.chat, Func.jsonFormat(e), m)
