@@ -22,7 +22,7 @@ exports.run = {
                   title: 'Tgh Bot Broadcast',
                   thumbnail: await Func.fetchBuffer('https://telegra.ph/file/bc0868059809a2d2f39dc.jpg'),
                   largeThumb: true,
-                  url: 'https://chat.whatsapp.com/LrsAjr8Uq3g6trBGwVRUSb',
+                  url: 'https://chat.whatsapp.com/EtDhmsKYBAW3NVvm1gSUuB',
                   mentionedJid: command == 'bcgc' ? await (await client.groupMetadata(jid)).participants.map(v => v.id) : []
                })
             }
