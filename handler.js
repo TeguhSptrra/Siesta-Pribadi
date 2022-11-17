@@ -136,7 +136,7 @@ module.exports = async (client, m) => {
                title : 'Maaf Akses Di Tolakk',
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/bc0868059809a2d2f39dc.jpg'),
-               url: 'https://chat.whatsapp.com/LrsAjr8Uq3g6trBGwVRUSb'
+               url: 'https://chat.whatsapp.com/BzHI1DrNnjuIpIY5t8qyQM'
             }).then(() => chats.lastchat = new Date() * 1)
             if (!['me', 'owner'].includes(name) && users && (users.banned || new Date - users.banTemp < global.timer)) return
             if (m.isGroup && !['activation'].includes(name) && groupSet.mute) continue
@@ -215,7 +215,7 @@ module.exports = async (client, m) => {
                title: 'Maaf Akses Di Tolakk',
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/bc0868059809a2d2f39dc.jpg'),
-               url: 'https://chat.whatsapp.com/LrsAjr8Uq3g6trBGwVRUSb'
+               url: 'https://chat.whatsapp.com/BzHI1DrNnjuIpIY5t8qyQM'
             }).then(() => chats.lastchat = new Date() * 1)
             if (setting.self && !['chatAI', 'exec'].includes(name) && !isOwner && !m.fromMe) continue
             if (!m.isGroup && ['chatAI'].includes(name) && body && Func.socmed(body)) continue
