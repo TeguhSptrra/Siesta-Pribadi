@@ -170,7 +170,7 @@ exports.run = {
 ◦  ${isPrefix}premium 
 ◦  ${isPrefix}runtime`
       client.sendMessageModify(m.chat, captions, m, {
-      	       title: 'Tguh Bot',
+      	       title: 'Oki Bot',
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/bc0868059809a2d2f39dc.jpg'),
                url: 'https://chat.whatsapp.com/EcfAhRoGqjXGdwy73VEwIt'
