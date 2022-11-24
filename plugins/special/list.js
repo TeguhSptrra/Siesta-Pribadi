@@ -57,7 +57,7 @@ exports.run = {
             teks += data.map(cmd => '	◦ ' + isPrefix + cmd).join('\n') + '\n\n'
             teks += global.footer
             client.sendMessageModify(m.chat, teks, m, {
-               title: 'Teguh Bot Premium',
+               title: 'Oki Bot',
                ads: false,
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/bc0868059809a2d2f39dc.jpg')
@@ -69,7 +69,7 @@ exports.run = {
             teks += data.map(jid => '	◦ @' + jid.replace(/@.+/, '')).join('\n') + '\n\n'
             teks += global.footer
             client.sendMessageModify(m.chat, teks, m, {
-               title: 'Siesta - Multi Device',
+               title: 'Oki Bot',
                ads: false,
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/3d20c23aafd4257325003.jpg')
@@ -81,7 +81,7 @@ exports.run = {
             teks += data.map(plugin => '	◦ ' + plugin + '.js').join('\n') + '\n\n'
             teks += global.footer
             client.sendMessageModify(m.chat, teks, m, {
-               title: 'Siesta - Multi Device',
+               title: 'Oki Bot',
                ads: false,
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/3d20c23aafd4257325003.jpg')
@@ -93,7 +93,7 @@ exports.run = {
             teks += data.map(([jid, data]) => '	◦ @' + jid.replace(/@.+/, '') + '\n	 *Limit* : ' + Func.formatNumber(data.limit)).join('\n') + '\n\n'
             teks += global.footer
             client.sendMessageModify(m.chat, teks, m, {
-               title: 'Siesta - Multi Device',
+               title: 'Oki Bot',
                ads: false,
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/3d20c23aafd4257325003.jpg')
@@ -106,7 +106,7 @@ exports.run = {
             teks += data.sort((a, b) => b[1].lastseen - a[1].lastseen).map(([jid, data]) => '	◦ @' + jid.replace(/@.+/, '') + '\n	     *Chat* : ' + Func.formatNumber(data.chat) + '\n	     *Lastchat* : ' + moment(data.lastseen).format('DD/MM/YY HH:mm:ss')).join('\n') + '\n\n'
             teks += global.footer
             client.sendMessageModify(m.chat, teks, m, {
-               title: 'Siesta - Multi Device',
+               title: 'Oki Bot',
                ads: false,
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/3d20c23aafd4257325003.jpg')
