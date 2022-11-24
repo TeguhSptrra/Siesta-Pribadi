@@ -173,7 +173,7 @@ exports.run = {
       	       title: 'Oki Bot',
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/bc0868059809a2d2f39dc.jpg'),
-               url: 'https://chat.whatsapp.com/EcfAhRoGqjXGdwy73VEwIt'
+               url: 'https://chat.whatsapp.com/BuNlFMJDpJQ88XdVyg7arI'
             })
       } catch (e) {
          client.reply(m.chat, Func.jsonFormat(e), m)
