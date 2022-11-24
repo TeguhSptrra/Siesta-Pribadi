@@ -26,7 +26,7 @@ exports.run = {
          let chSize = Func.sizeLimit(json.data.size, global.max_upload)
          if (chSize.oversize) return client.reply(m.chat, `💀 File size (${json.data.size}) exceeds the maximum limit, download it by yourself via this link : ${await (await scrap.shorten(json.data.url)).data.url}`, m)
          client.sendMessageModify(m.chat, caption, m, {
-            title: 'Tgh Bot',
+            title: 'Oki Bot',
             largeThumb: true,
             thumbnail: await Func.fetchBuffer(json.thumbnail)
          }).then(async () => {
