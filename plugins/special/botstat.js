@@ -31,7 +31,7 @@ exports.run = {
          }
          const system = global.db.setting
          client.sendMessageModify(m.chat, statistic(stats, system), m, {
-            title: 'Teguh Bot Premium',
+            title: 'Oki Bot',
             ads: false,
             largeThumb: true,
             thumbnail: await Func.fetchBuffer('https://telegra.ph/file/bc0868059809a2d2f39dc.jpg')
