@@ -1,7 +1,7 @@
 // Owner number
 global.owner = '6288987428692'
 // Owner name
-global.owner_name = 'Tguh OFC'
+global.owner_name = 'Oki Tamvan'
 // Maximum upload file size limit (Default : 50 MB)
 global.max_upload = 50
 // Delay for spamming protection (Default : 3 seconds)
@@ -24,7 +24,7 @@ global.chatai_key = 'MKPsfkgXLZPGrWoH'
 // Source version
 global.version = '2.2.1',
 // Footer text
-global.footer = 'Tgh Bot'
+global.footer = 'Oki Bot'
 // Global status
 global.status = Object.freeze({
    wait: Func.texted('bold', 'Processed . . .'),
