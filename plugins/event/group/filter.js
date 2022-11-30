@@ -14,12 +14,12 @@ exports.run = {
             if (body && (new RegExp('\\b' + toxic.join('\\b|\\b') + '\\b')).test(body.toLowerCase())) {
                groupSet.member[m.sender].warning += 1
                let warning = groupSet.member[m.sender].warning
-               if (warning > 4) return client.reply(m.chat, Func.texted('bold', `🚩 Warning : [ 5 / 5 ], good bye ~~`), m).then(() => {
+               if (warning > 4) return client.reply(m.chat, Func.texted('bold', `🚩 TOXIC : [ 5 / 5 ], good bye manusia kotor ~~`), m).then(() => {
                   client.groupParticipantsUpdate(m.chat, [m.sender], 'remove').then(async () => {
                      groupSet.member[m.sender].warning = 0
                   })
                })
-               return client.reply(m.chat, `乂  *W A R N I N G* \n\nYou got warning : [ ${warning} / 5 ]\n\If you get 5 warnings you will be kicked automatically from the group.`, m)
+               return client.reply(m.chat, `乂  *TERDETEKSI TOXIC* \n\nToxic Kamu Sudah Mencapai : [ ${warning} / 5 ]\n\Jika Kamu Toxic Sampai 5× Kamu Akan Dikick`, m)
             }
          }
       } catch (e) {
